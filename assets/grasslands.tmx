@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="128" tileheight="128">
+ <tileset firstgid="1" name="grass" tilewidth="128" tileheight="128">
+  <image source="grass.png" width="384" height="384"/>
+ </tileset>
+ <tileset firstgid="10" name="dirt" tilewidth="128" tileheight="128">
+  <image source="dirt.png" width="384" height="384"/>
+  <terraintypes>
+   <terrain name="New Terrain" tile="8"/>
+   <terrain name="New Terrain" tile="4"/>
+  </terraintypes>
+ </tileset>
+ <tileset firstgid="19" name="brick" tilewidth="128" tileheight="128">
+  <image source="brick.png" width="384" height="384"/>
+  <terraintypes>
+   <terrain name="walcorner" tile="0"/>
+  </terraintypes>
+ </tileset>
+ <tileset firstgid="28" name="brick2" tilewidth="128" tileheight="128">
+  <image source="brick2.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="34" name="water" tilewidth="128" tileheight="128">
+  <image source="water.png" width="384" height="384"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Y2U4DIRSAYVyrjlNbGy+MVqvWre//gJ6TgYScFIadg+Hiv5suX6HAzEYIsWu8B2gLnUCnkZ1By0ptZefQRWSX3WHMNE/o2Kd0YKvEhmOfcQVdZ3akspkM9PuXdPiafA01HC6ehZjmjp7N4OK4gQbZbcUxil2vRu3aOwZjlcKxzDgmsaY5B77PurLFltpHfP7n+m/DxaL2Xt/1SrcMpJYc+lxT1RyjGAen+ZbSUdOS2lHLksNRw5LLQS10TUt9xsnpUJa1oZRnnNwOW2OjDv3MPIjjcy50npVyoGEDvUHv0AdpD72K6blNiKWUA+fQizR8GdrLa0Lmmq+Dzg3X9WecMeiWEg56H0IzfQd83aeD47s7ijl+HByHgg7TvobdW173PGM5yGtKOELDff1RTOsuWn5JaMB198nyW3BwKMvcc4IQQ2lHzrqDV92RJnrO4X7eNZXqOWVthyr2+TEXB91bfPd0Lg59jtnONy04YuoOXnUHr7qDV//Rgfedu8bD++I/hZ6tJBAnAAA=
+  </data>
+ </layer>
+</map>

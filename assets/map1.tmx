@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="128" tileheight="128">
+ <tileset firstgid="1" name="dirt" tilewidth="128" tileheight="128">
+  <image source="dirt.png" width="384" height="384"/>
+ </tileset>
+ <tileset firstgid="10" name="grass" tilewidth="128" tileheight="128">
+  <image source="grass.png" width="384" height="384"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC53OywrAMAhEUdNWStq8//9jOwUXIiRCFmd3cXyI6F1IwJChOJLpAhxwmq6a7pINdrpbmuh0M3/XoItVx8rs9m6nf9AGfEFApKiQAQAA
+  </data>
+ </layer>
+</map>

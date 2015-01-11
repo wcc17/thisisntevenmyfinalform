@@ -1,0 +1,1 @@
+java -jar -Djava.library.path=C:/lwjgl-2.9.1/native/windows game.jar
